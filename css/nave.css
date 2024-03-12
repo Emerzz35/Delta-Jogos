@@ -1,5 +1,7 @@
 .menu {
   background-color: black;
   color: white;
-  font-family: 'kodchasan', sans-serif;
+  font-family: 'Kodchasan', sans-serif;
+  margin: 0%;
+  position: relative;
 }
