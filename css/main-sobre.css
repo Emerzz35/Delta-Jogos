@@ -1,3 +1,3 @@
-@import 'layout/navbar.css';
-@import 'layout/header_sobre.css';
-@import 'layout/body_sobre.css';
+@import './base/reset.css';
+@import './base/grafia.css';
+@import './layout/nav.css';
