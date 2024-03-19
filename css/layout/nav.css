@@ -17,6 +17,11 @@ header {
     color: white;
 }
 
+a.logo:hover {
+    text-decoration: none;
+    color: white;
+}
+
 .logo img {
     width: 75px;
     height: auto;
@@ -38,4 +43,12 @@ header {
 
 .navlist a:hover {
     border-bottom: 2px solid white;
+}
+
+#menu-icon {
+    color: white;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
 }

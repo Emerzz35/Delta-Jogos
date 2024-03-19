@@ -1,0 +1,28 @@
+.delta {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #3A3949;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+section {
+    padding: 0 19%;
+}
+
+.delta-text h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.delta-text h1 {
+    font-size: 90px;
+    line-height: 1;
+    color: white;
+}
