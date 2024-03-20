@@ -1,0 +1,13 @@
+.bt{
+   border-radius: 30px;
+   border: 0px;
+   color: white;
+   background-color: #5CA4F9;
+   height: 40px;
+   width: 200px;
+   font-family: 'kodchasan', sans-serif;
+   font-size: 25px;
+   text-align: center;
+   
+   padding: -3%;
+}
