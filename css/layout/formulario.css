@@ -1,0 +1,29 @@
+.formu{
+    
+    position: relative;
+    background-color: #2e3136;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    transform: translate(-50% -50%);
+    box-sizing: border-box;
+}
+
+.fm{
+    padding: 10% 10% 10% 7%;
+    margin: 17.5% 0% 0% 0%;
+
+}
+
+.fr{
+    width: 50%;
+    background-color: #59606d;
+    border: none;
+}
+
+.bts{
+    margin: 10% 1% 1% 70%;
+    align-items: flex-end;
+    overflow: auto;
+}
