@@ -2,3 +2,5 @@
 @import './base/grafia.css';
 @import './layout/nav.css';
 @import './layout/section-sobre.css';
+@import './layout/body.css';
+@import './layout/mainsec-sobre.css';
