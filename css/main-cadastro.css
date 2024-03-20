@@ -3,4 +3,5 @@
 @import '../css/base/grafia.css';
 @import '../css/layout/formulario.css';
 @import '../css/layout/body.css';
-@import '../css/modulos/bt.css'
+@import '../css/modulos/bt.css';
+@import '../css/layout/nav.css'
