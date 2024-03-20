@@ -2,6 +2,7 @@
     background-color: #444168;
     color: white;
     height: 120px;
+    max-height: 120px;
     width: 737px;
     max-width: 737px;
     
@@ -50,4 +51,10 @@
     margin-bottom: 0;
     margin-right: 5%;
     font-size: 1.5rem;
+}
+.card-group{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 80vh;
 }
