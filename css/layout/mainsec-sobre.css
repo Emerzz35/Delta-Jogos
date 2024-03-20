@@ -1,0 +1,41 @@
+main {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#002b4b, #000);
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    padding: 0 19%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.texto {
+    padding: 20vh;
+}
+
+.palworld, .stardewvalley, .eldenring {
+    position: absolute;
+}
+
+.palworld {
+    right: 50px;
+    top: 150px;
+}
+
+.eldenring {
+    right: 60px;
+    top: 380px;
+}
+.stardewvalley {
+    left: 60px;
+    top: 300px;
+}
