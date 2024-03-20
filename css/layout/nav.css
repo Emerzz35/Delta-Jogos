@@ -9,6 +9,7 @@ header {
     justify-content: space-between;
     padding: 33px 9%;
     background-color: black;
+    height: 9vh;
 }
 
 .logo {
@@ -21,6 +22,7 @@ a.logo:hover {
     text-decoration: none;
     color: white;
 }
+
 
 .logo img {
     width: 75px;
@@ -52,3 +54,4 @@ a.logo:hover {
     cursor: pointer;
     display: none;
 }
+
