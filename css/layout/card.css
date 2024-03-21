@@ -3,9 +3,9 @@
     color: white;
     height: 120px;
     max-height: 120px;
-    width: 737px;
-    max-width: 737px;
-    
+    width: 100%;
+    border: 0;
+    border-radius: 0;
 }
 .card>.row{
     width: 100%;
@@ -55,6 +55,22 @@
 .card-group{
     display: flex;
     flex-direction: column;
-    width: 80vw;
-    height: 80vh;
+    width: 52vw;
+    height: 100vh;
+}
+
+.cardon{
+    background-color: #9B95E3;
+}
+.card-info{
+    height: 500px;
+    width: 23%;
+    background: rgb(155,149,227);
+    background: linear-gradient(113deg, rgba(155,149,227,1) 0%, rgba(85,82,125,1) 40%, rgba(0,0,0,1) 100%);
+    padding: 1%;
+}
+.card-desc{
+    margin-top: 5%;
+    margin-right: 20%;
+    font-size: 1.5rem;
 }

@@ -2,11 +2,11 @@ main {
     height: 100%;
     width: 100%;
     background: linear-gradient(#002b4b, #000);
-    text-align: center;
-    align-items: center;
     min-height: 100vh;
-    position: relative;
-    padding: 7% 19%;
+ 
+    padding: 7% 0 0 7%;
+    display: flex;
+    
 }
 html{
     overflow-y: scroll;
