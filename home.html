@@ -48,7 +48,8 @@
     </div>
 
     <main>
-      <div class="card-group">
+     
+      <div class="card-group " id="scrollableDiv">
         
         <div class="card mb-3 cardon">
           <div class="row g-0">
@@ -90,6 +91,69 @@
           </div>
         </div>
 
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4 card-col">
+              <img src="assets/Assets temporarios/Fortinite2.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-5 card-col">
+              <div class="card-body">
+                <h5 class="card-title">Fortinite</h5>
+                <p class="card-text categoria">Battle Royale</p>
+              </div>
+            </div>
+            <div class="col-md-3 card-col">
+              <div class="card-preco">
+              <p class="card-text">R$ 129,00</p>
+              <box-icon name='cart-add' color="white" size="2rem"></box-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4 card-col">
+              <img src="assets/Assets temporarios/Fortinite2.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-5 card-col">
+              <div class="card-body">
+                <h5 class="card-title">Fortinite</h5>
+                <p class="card-text categoria">Battle Royale</p>
+              </div>
+            </div>
+            <div class="col-md-3 card-col">
+              <div class="card-preco">
+              <p class="card-text">R$ 129,00</p>
+              <box-icon name='cart-add' color="white" size="2rem"></box-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4 card-col">
+              <img src="assets/Assets temporarios/Fortinite2.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-5 card-col">
+              <div class="card-body">
+                <h5 class="card-title">Fortinite</h5>
+                <p class="card-text categoria">Battle Royale</p>
+              </div>
+            </div>
+            <div class="col-md-3 card-col">
+              <div class="card-preco">
+              <p class="card-text">R$ 129,00</p>
+              <box-icon name='cart-add' color="white" size="2rem"></box-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       </div>
 
       <div class="card-info">
@@ -98,8 +162,20 @@
         <img src="assets/Assets temporarios/minecraft3.webp" alt="" class="img-fluid rounded-start">
         <p class="card-text card-desc">Em Minecraft, você constrói o que quiser em um mundo infinito. Sobreviva, explore e crie com amigos ou sozinho. Uma experiência de jogo única e infinita.</p>
       </div>
-
+      <div class="fadeout"></div>
     </main>
+   
+    <script>
+      // Função para definir a posição inicial da barra de rolagem
+      function setInitialScrollbarPosition() {
+          var scrollableDiv = document.getElementById('scrollableDiv');
+          scrollableDiv.scrollLeft = 50px; // Definindo a posição inicial como 50px da esquerda
+      }
+  
+      // Chamando a função para definir a posição inicial da barra de rolagem
+      window.onload = setInitialScrollbarPosition;
+  </script>
+
   <!--Script do Slick e do Bootstrap-->
   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
   <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
