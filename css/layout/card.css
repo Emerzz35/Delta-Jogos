@@ -6,6 +6,7 @@
     width: 100%;
     border: 0;
     border-radius: 0;
+
 }
 .card>.row{
     width: 100%;
@@ -55,10 +56,11 @@
 .card-group{
     display: flex;
     flex-direction: column;
-    width: 52vw;
+    width: 75vw;
     height: 604px;
     overflow-y: scroll;
     flex-wrap: nowrap;
+    padding-right: 23vw;
 
 }
 
@@ -67,10 +69,12 @@
 }
 .card-info{
     height: 528px;
-    width: 23%;
+    width: 23vw;
     background: rgb(155,149,227);
     background: linear-gradient(113deg, rgba(155,149,227,1) 0%, rgba(85,82,125,1) 40%, rgba(0,0,0,1) 100%);
     padding: 1%;
+    margin-left: -23.5vw;
+    z-index: 1;
 }
 .card-desc{
     margin-top: 5%;
@@ -109,4 +113,7 @@
   
   .card-group::-webkit-scrollbar-thumb:active {
     background-color: #7E7D8B;
+  }
+  .cardall{
+    display: flex;
   }
