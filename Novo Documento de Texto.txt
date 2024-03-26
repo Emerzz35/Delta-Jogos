@@ -1,0 +1,7 @@
+insert into CATEGORIA(CATEGORIA_NOME,CATEGORIA_DESC,CATEGORIA_ATIVO)
+values ('Sandbox',
+        'um estilo de game em que são colocadas apenas limitações mínimas para o ',
+      	 1)
+
+
+
