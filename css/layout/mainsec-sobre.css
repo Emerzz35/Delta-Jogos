@@ -22,20 +22,26 @@ a:hover {
     padding: 20vh;
 }
 
-.palworld, .stardewvalley, .eldenring {
+.palworld, .stardewvalley, .eldenring, .horizon {
     position: absolute;
 }
 
 .palworld {
-    right: 50px;
-    top: 150px;
+    right: 10%;
+    top: 15%;
 }
 
 .eldenring {
-    right: 60px;
-    top: 380px;
+    right: 6%;
+    top: 38%;
 }
+
 .stardewvalley {
-    left: 60px;
-    top: 300px;
+    left: 7%;
+    top: 30%;
+}
+
+.horizon {
+    left: 15%;
+    top: 51%;
 }

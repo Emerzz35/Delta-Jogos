@@ -6,7 +6,7 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 33px 9%;
     background-color: black;
     height: 9vh;
@@ -53,5 +53,9 @@ a.logo:hover {
     z-index: 10001;
     cursor: pointer;
     display: none;
+}
+
+.menu-icons {
+    size: 3rem;
 }
 
