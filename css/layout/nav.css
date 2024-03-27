@@ -37,7 +37,7 @@ a.logo:hover {
     color: white;
     text-decoration: none;
     margin-left: 60px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
     border-bottom: 2px solid transparent;
     transition: all .55s ease;
@@ -55,7 +55,6 @@ a.logo:hover {
     display: none;
 }
 
-.menu-icons {
-    size: 3rem;
+#pg-atual {
+    color: #078799;
 }
-
