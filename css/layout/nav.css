@@ -10,6 +10,8 @@ header {
     padding: 33px 9%;
     background-color: black;
     height: 9vh;
+    
+    
 }
 
 .logo {
@@ -31,6 +33,7 @@ a.logo:hover {
 
 .navlist {
     display: flex;
+    
 }
 
 .navlist a {
@@ -41,6 +44,7 @@ a.logo:hover {
     font-weight: 600;
     border-bottom: 2px solid transparent;
     transition: all .55s ease;
+    
 }
 
 .navlist a:hover {
@@ -93,3 +97,7 @@ a.logo:hover {
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: #000;}
+
+  li{
+    list-style: none;
+  }
